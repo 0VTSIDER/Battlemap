@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Asset ledger and licence checks
+        run: python3 tools/ledger.py check
+      - name: Install tools (rokit.toml)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          curl -sSf https://raw.githubusercontent.com/rojo-rbx/rokit/main/scripts/install.sh | bash
+          echo "$HOME/.rokit/bin" >> "$GITHUB_PATH"
+          "$HOME/.rokit/bin/rokit" install --no-trust-check
+      - name: Lint
+        run: selene src --allow-warnings
+      - name: Build
+        run: |
+          mkdir -p build
+          rojo build default.project.json -o build/Battlemap.rbxl
+          rojo build release.project.json -o build/Battlemap_release.rbxl
+      - name: Fast tests
+        run: |
+          for t in handoff ds_gate localization; do
+            echo "== $t"
+            timeout 120 lune run "tests/$t.luau"
+          done

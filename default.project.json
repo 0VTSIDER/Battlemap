@@ -1,0 +1,69 @@
+{
+  "name": "Battlemap",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "Battlemap": {
+        "$path": "src/shared"
+      },
+      "BattlemapDevLoc": {
+        "$path": "assets/localization/translations.csv"
+      }
+    },
+    "ServerScriptService": {
+      "BattlemapServer": {
+        "$path": "src/server"
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "BattlemapClient": {
+          "$path": "src/client"
+        }
+      }
+    },
+    "Players": {
+      "$properties": {
+        "CharacterAutoLoads": false
+      }
+    },
+    "Lighting": {
+      "$properties": {
+        "Ambient": [
+          1,
+          1,
+          1
+        ],
+        "OutdoorAmbient": [
+          1,
+          1,
+          1
+        ],
+        "Brightness": 0,
+        "GlobalShadows": false,
+        "EnvironmentDiffuseScale": 0,
+        "EnvironmentSpecularScale": 0,
+        "ClockTime": 12,
+        "ExposureCompensation": 0,
+        "Technology": "Voxel"
+      },
+      "ColorGrading": {
+        "$className": "ColorGradingEffect",
+        "$properties": {
+          "TonemapperPreset": "Retro"
+        }
+      }
+    },
+    "StarterGui": {
+      "$properties": {
+        "ResetPlayerGuiOnSpawn": false,
+        "ScreenOrientation": "LandscapeSensor"
+      }
+    },
+    "Workspace": {
+      "$properties": {
+        "Gravity": 0
+      }
+    }
+  }
+}

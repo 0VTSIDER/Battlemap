@@ -1,0 +1,7 @@
+Licence evidence for pauliuw_hits, retrieved 2026-11-03 from the source page(s):
+
+https://opengameart.org/node/4252
+  title:    Hit sounds
+  author:   pauliuw
+  licence:  CC0
+  licence link(s): http://creativecommons.org/publicdomain/zero/1.0/

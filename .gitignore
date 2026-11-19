@@ -1,0 +1,25 @@
+.venv/
+.bin/
+.secrets/
+build/
+*.rbxl.lock
+__pycache__/
+.claude/
+.mcp.json
+
+assets/exports/Branding/experience_icon_512.png
+
+# Original art lives outside this repository (see ASSETS-LICENSE)
+assets/exports/Cosmetics/atlas/
+assets/exports/Branding/title_logo.png
+assets/sources/branding/
+assets/sources/cosmetics/avatar/
+assets/sources/cosmetics/frame/
+assets/sources/cosmetics/badge/uncommon/
+assets/sources/cosmetics/badge/rare/
+assets/sources/cosmetics/badge/epic/
+assets/sources/cosmetics/badge/legendary/
+assets/sources/cosmetics/designed_flags/
+
+# Agent working notes (local only)
+CLAUDE.md
