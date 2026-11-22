@@ -1,0 +1,7 @@
+Licence evidence for cethiel_laments-of-the-war, retrieved 2026-11-03 from the source page(s):
+
+https://opengameart.org/content/laments-of-the-war
+  title:    Laments of the War
+  author:   cethiel
+  licence:  CC0
+  licence link(s): http://creativecommons.org/publicdomain/zero/1.0/

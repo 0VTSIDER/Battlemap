@@ -1,0 +1,7 @@
+Licence evidence for qubodup_naval-battle, retrieved 2026-11-03 from the source page(s):
+
+https://opengameart.org/content/tiny-naval-battle-sounds-set
+  title:    Tiny Naval Battle Sounds Set
+  author:   qubodup
+  licence:  CC0
+  licence link(s): http://creativecommons.org/publicdomain/zero/1.0/

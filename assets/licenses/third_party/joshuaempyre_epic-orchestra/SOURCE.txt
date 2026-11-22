@@ -1,0 +1,7 @@
+Epic Orchestra - LOOP, by joshuaempyre (Freesound).
+https://freesound.org/s/250856/
+Licence: Creative Commons Attribution 4.0 (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/
+  as listed on that page (checked 2026-11-04); Freesound's own licence note: LICENSE_freesound.txt.
+Attribution required: credited in HelpOverlay.LEGAL ("Epic Orchestra - LOOP by joshuaempyre, CC BY 4.0").
+Changes: the WAV re-encoded to Ogg Vorbis q6 (the WAV is kept outside the repository); otherwise unchanged.
+Used as the title screen and waiting room music since 2026-11-04.

@@ -1,0 +1,8 @@
+OpenFront sound effects
+Source: https://github.com/openfrontio/OpenFrontIO/tree/main/resources/sounds/effects
+Commit: 0d61b4b8563e4ae9f16cb3ca2441e27e5d15b8e1 (downloaded 2026-11-04)
+Licence: Creative Commons BY-SA 4.0 (LICENSE-ASSETS.md, copied from the repository root)
+         https://creativecommons.org/licenses/by-sa/4.0/
+Attribution: "OpenFront" / "OpenFront Inc." (OpenFront Inc. and Contributors)
+Changes: trimmed to at most 2.5 s with a fade-out and re-encoded to Ogg Vorbis for Roblox
+         (tools/assets/game_audio.py TRIM / GAIN); the trimmed versions are CC BY-SA 4.0 too.

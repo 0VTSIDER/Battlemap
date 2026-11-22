@@ -1,0 +1,5 @@
+Laments of the War, by Cethiel (OpenGameArt).
+https://opengameart.org/content/laments-of-the-war
+Licence: CC0 1.0, as listed on that page (checked 2026-11-03). FLAC re-encoded to OGG q6.
+Full text: ../LICENSES/CC0-1.0.txt
+Rechecked 2026-11-04: still CC0 1.0 only (the match music).

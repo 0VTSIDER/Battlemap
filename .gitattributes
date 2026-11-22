@@ -1,0 +1,2 @@
+# Asset and licence files stay byte for byte: the ledger and PROVENANCE.csv hold their hashes.
+assets/** -text

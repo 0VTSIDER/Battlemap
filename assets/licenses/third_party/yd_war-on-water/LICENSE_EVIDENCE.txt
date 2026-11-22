@@ -1,0 +1,7 @@
+Licence evidence for yd_war-on-water, retrieved 2026-11-22 from the source page(s):
+
+https://opengameart.org/content/war-on-water-tracks
+  title:    War on Water: Tracks
+  author:   yd
+  licence:  CC0
+  licence link(s): http://creativecommons.org/publicdomain/zero/1.0/
